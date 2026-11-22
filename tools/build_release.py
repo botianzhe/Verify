@@ -20,7 +20,7 @@ def main():
             sys.executable, "-m", "pip", "wheel", ".", "--no-deps", "--no-cache-dir",
             "--no-build-isolation", "--wheel-dir", str(destination),
         ], cwd=root, env=dict(os.environ, TMPDIR=temporary), check=True)
-    names = ["README.md", "pyproject.toml", "requirements.txt", "Dockerfile", ".gitignore", ".dockerignore", ".gitattributes", "THIRD_PARTY_NOTICES.md"]
+    names = ["README.md", "pyproject.toml", "requirements.txt", "Dockerfile", ".gitignore", ".dockerignore", ".gitattributes"]
     files = [root / name for name in names]
     for directory, pattern in (("verify", "*.py"), ("tools", "*.py"), ("tests", "*.py"),
                                (".github", "*.yml")):
