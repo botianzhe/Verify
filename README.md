@@ -6,13 +6,13 @@ Official implementation of **VeriFi**, a tamper-resilient versatile watermarking
 
 This toolkit provides five functions: watermark embedding, local forgery, copyright extraction, forgery localization, and content recovery. It ships with built-in model weights and a VAE. After installing dependencies, it supports fully offline inference.
 
-Download the model weights from Baidu Cloud Disk and replace the `weights/` folder inside the `verify/` package before running any commands.
+## Installation
+
+1. Download the model weights from Baidu Cloud Disk and replace the `weights/` folder inside the `verify/` package before running any commands.
 
 https://pan.baidu.com/s/1Lp7is_LrCde3PBQuvcXh-g?pwd=dw5i
 
-## Installation
-
-Requires Python ≥3.10. A CUDA-enabled PyTorch installation is recommended.
+2. Requires Python ≥3.10. A CUDA-enabled PyTorch installation is recommended.
 
 ```bash
 cd Verify
