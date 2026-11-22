@@ -1,0 +1,28 @@
+{
+  "format": "reface_offline_assets_v1",
+  "source_checkpoint": "ReFacev5_img256_7rec_gan_hide128latent_joint_new_celeba100.py/2026-11-06T12-27-00/best_recovery.pth",
+  "source_checkpoint_sha256": "a148b25e4eccf4ff727b6d7475248857e26c7e54fe84d411ed1e3dc6d92cdcd9",
+  "state_keys": 1070,
+  "export_tensor_max_diff": 0.0,
+  "training_version": 2,
+  "model_is_ema": true,
+  "training_complete": false,
+  "stage": "recovery",
+  "stage_epoch": 29,
+  "vae_source": "sd2-community/stable-diffusion-2-1",
+  "vae_revision": "bb2154823665391b4fb29b0b9cf82a198964ee05",
+  "files": {
+    "verify.pth": {
+      "sha256": "6f195133c15f4e190147c87d7e89eb8c8468cea6dd6046cca0644bf30c243771",
+      "bytes": 685143889
+    },
+    "vae/config.json": {
+      "sha256": "d69281aa3f6a0f3c41aaf6778e35464fc6ee8a92e6ac8a8b1eb679f6df6423eb",
+      "bytes": 611
+    },
+    "vae/diffusion_pytorch_model.safetensors": {
+      "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+      "bytes": 334643276
+    }
+  }
+}
