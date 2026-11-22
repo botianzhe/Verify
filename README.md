@@ -88,3 +88,22 @@ docker build -t verify-watermark .
 docker run --gpus all --rm -v /absolute/data:/data verify-watermark \
   --mode recover --input /data/forged.png --output /data/recovered.png
 ```
+
+## Citation
+
+```bash
+@inproceedings{10.1145/3767308.3835208,
+author = {Yu, Peipeng and Xie, Jinfeng and Ou, Chengfu and Zhou, Xiaoyu and Fei, Jianwei and Dai, Yunshu and Xia, Zhihua and Chang, Chip Hong},
+title = {High-Fidelity Face Content Recovery via Tamper-Resilient Versatile Watermarking},
+year = {2026},
+isbn = {9798400722134},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3767308.3835208},
+doi = {10.1145/3767308.3835208},
+booktitle = {Proceedings of the 34th ACM International Conference on Multimedia},
+pages = {13793–13802},
+numpages = {10},
+series = {MM '26}
+}
+```
