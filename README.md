@@ -68,7 +68,7 @@ Use `--watermark` to specify a custom 100-bit copyright string; if omitted, one 
 python tools/test_examples.py --device cuda
 ```
 
-The examples/README.md directory contains 10 sets of original images, donor images, masks, forged PNGs, and copyright labels. Pre-generated watermarked images or PT/NPZ numerical files are **not** provided. Results are saved to `logs/top10_retest_<timestamp>/`.
+The examples/d directory contains 6 sets of original images, donor images, masks, forged PNGs, and copyright labels.
 
 The test reports two separate scenarios: (1) a complete re-embedding and forgery pipeline, and (2) direct inference on existing forged PNGs. Since the inputs differ, metrics should be examined separately. The curated examples do not represent overall dataset performance.
 
